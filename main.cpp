@@ -2,6 +2,10 @@
 
 int main()
 {
+	std::map <int, int> solucionUnaRuta;
+	solucionUnaRuta[1] = 2;
+	printf("probando diccionario: %d \n", solucionUnaRuta[1]);
+
 	printf("Characters: %c %c \n", 'a', 65);
 	printf("Decimals: %d %ld\n", 1977, 650000L);
 	printf("Preceding with blanks: %10d \n", 1977);
